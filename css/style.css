@@ -1,0 +1,90 @@
+.titulo-principal {
+    text-align: center;
+    padding: 10px;
+}
+
+.parrafo1 {
+    text-align: center;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.fondo {
+    background-color: #d4cc71;
+}
+
+#carouselExampleIndicators {
+    width: 50%;
+    height: 20%;
+    margin: 0 auto;
+}
+
+.imagenes {
+    width: 60%;
+    margin-left: 20%;
+    border-radius: 5px;
+}
+
+.d-block {
+    width: 50%;
+}
+
+.productos {
+    text-align: center;
+    font-size: 22px;
+    margin-top: 50px;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+}
+
+.cajas {
+    background-color: #dadba3;
+    border: solid #d1685f 3px;
+    height: 310px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 3px;
+}
+
+.fondoCaja {
+    width: 50px;
+    border-radius: 5px;
+    margin-left: 25px;
+    margin-top: 7px;
+}
+
+.tamanioCantidad {
+    width: 130px;
+    font-size: 14px;
+    border-radius: 5px;
+}
+
+.productosCajas {
+    text-align: center;
+    font-style: italic;
+    font-weight: bolder;
+}
+
+.btn1 {
+    margin-left: 20%;
+    background-color: #d1685f;
+    border-radius: 5px;
+    margin-top: 5px;
+    font-weight: bold;
+}
+
+#compraFinalizada {
+    margin-left: 45%;
+    background-color: #d1685f;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.cajas:hover {
+    transform: scale(1.1, 1.1);
+    transition: transform 0.3s ease;
+}
